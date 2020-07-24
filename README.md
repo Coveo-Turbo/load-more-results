@@ -1,5 +1,12 @@
 # LoadMoreResults
 
+Provides a button to load more results
+
+|                         LoadMoreResults                         |
+| --------------------------------------------------------------- |
+| ![image](https://share.getcloudapp.com/items/nOueABnE/download) |
+
+
 Disclaimer: This component was built by the community at large and is not an official Coveo JSUI Component. Use this component at your own risk.
 
 ## Getting Started
