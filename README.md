@@ -37,7 +37,15 @@ const LoadMoreResults = require('@coveops/load-more-results').LoadMoreResults;
 export * from '@coveops/load-more-results'
 ```
 
-4. Include the component in your template as follows:
+4. Or for quick testing, you can add the script from unpkg
+
+```html
+<script src="https://unpkg.com/@coveops/load-more-results@latest/dist/index.min.js"></script>
+```
+
+> Disclaimer: Unpkg should be used for testing but not for production.
+
+5. Include the component in your template as follows:
 
 ```html
 <div class="CoveoLoadMoreResults"></div>
