@@ -60,7 +60,7 @@ export class LoadMoreResults extends Component {
     private handleNewResultsDisplayed() {
       this.reset();
       const resultListCmp = ResultListUtils.getActiveResultList(this.root);
-      if (resultListCmp && resultListCmp.hasPotentiallyMoreResultsToDisplay) {
+      if (resultListCmp && resultListCmp.hasPotentiallyMoreResultsToDisplay()) {
         if (this.options.enableQuerySummaryInfo) {
             const first = (this.queryStateModel.get(Coveo.QueryStateModel.attributesEnum.first) + 1);
             const last = this.searchInterface.resultsPerPage + (this.options.numberOfResultsPerLoad * this.loadMoreResultsCount);
