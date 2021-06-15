@@ -83,10 +83,10 @@ export class LoadMoreResults extends Component {
     }
 
     private renderLoadMoreButton(resultList: Coveo.ResultList) {
-      const loadMoreButton = $$('div', {
+      const loadMoreButton = $$('button', {
         className: 'coveo-load-more-results-button'
       }, Coveo.l('LoadMoreResults_Label'));
-      loadMoreButton.on('click', (e:Event) => { 
+      loadMoreButton.on('click', (e:Event) => {
           this.loadMoreResultsCount++;
           resultList.displayMoreResults(this.options.numberOfResultsPerLoad); })
 
